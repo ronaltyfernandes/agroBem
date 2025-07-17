@@ -27,19 +27,14 @@ Siga os passos abaixo para configurar e executar o projeto em sua máquina:
     git clone [https://github.com/ronaltyfernandes/agroBem.git](https://github.com/ronaltyfernandes/agroBem.git)
     ```
 
-2.  **Navegue até o diretório do projeto:**
-    ```bash
-    cd Front-end
-    ```
-
-3.  **Instale as dependências:**
+2.  **Instale as dependências:**
     ```bash
     npm install
     # ou
     yarn install
     ```
 
-4.  **Inicie o servidor de desenvolvimento:**
+3.  **Inicie o servidor de desenvolvimento:**
     ```bash
     npm run dev
     # ou
