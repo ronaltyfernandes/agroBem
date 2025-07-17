@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Crimson', sans-serif;
+  max-width: 100vw;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  #root {
+  }
+}
+
+/* Responsivo para celulares */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  #root {
+  }
+}
