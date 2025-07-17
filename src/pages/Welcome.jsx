@@ -10,7 +10,8 @@ function Welcome() {
   return (
     <section
       id="welcome"
-      className={`bg-[url(${FarmHeaderImage})] bg-cover h-full bg-cente pb-12 pt-24 lg:0 pt-8 lg-pt-0`}
+      className={`bg-cover h-full bg-cente pb-12 pt-24 lg:0 pt-8 lg-pt-0`}
+      style={{ backgroundImage: `url(${FarmHeaderImage})` }}
     >
       <div className="justify-center flex flex-col h-full text-white">
         <Card className="w-10/12 md:w-4/8 p-8 mx-auto">
