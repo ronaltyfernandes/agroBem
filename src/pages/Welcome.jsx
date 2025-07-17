@@ -3,13 +3,14 @@ import colors from '../utils/colors';
 import IconButtonReactive from '../components/IconButtonReactive';
 import { useState } from 'react';
 import ModalComprarAgora from '../components/modalComprarAgora';
+import FarmHeaderImage from '../assets/Farm_Header.webp';
 
 function Welcome() {
   const [open, setOpen] = useState(false);
   return (
     <section
       id="welcome"
-      className="bg-[url('src/assets/Farm_Header.webp')] bg-cover h-full bg-cente pb-12 pt-24 lg:0 pt-8 lg-pt-0"
+      className={`bg-[url(${FarmHeaderImage})] bg-cover h-full bg-cente pb-12 pt-24 lg:0 pt-8 lg-pt-0`}
     >
       <div className="justify-center flex flex-col h-full text-white">
         <Card className="w-10/12 md:w-4/8 p-8 mx-auto">
