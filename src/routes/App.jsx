@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 text-center">
       <div className="mx-auto ">
-        <BrowserRouter>
+        <BrowserRouter basename="/agroBem">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<h1 className="text-xl font-bold">About Us</h1>} />
