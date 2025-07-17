@@ -1,8 +1,9 @@
 {
-  "name": "tailwindcss4",
+  "name": "agrobem",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ronaltyfernandes.github.io/agroBem/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
